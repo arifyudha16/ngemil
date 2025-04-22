@@ -1,0 +1,173 @@
+/* Umum */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-image: url('image/foto1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(5, 0, 0);
+    text-align: center;
+    padding: 60px 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  
+  header h2 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* Produk */
+  .products {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .products h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .product {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .product h3 {
+    margin-top: 15px;
+    font-size: 1.2em;
+  }
+  
+  .product p {
+    font-size: 0.95em;
+    color: #666;
+  }
+  
+  /* Tentang Kami */
+  .about {
+    padding: 40px 20px;
+    background-color: #ffe0c1;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Kontak */
+  .contact {
+    padding: 40px 20px;
+    background-color: #fff4e6;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact button {
+    padding: 12px;
+    background-color: #ff8c42;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #e6722e;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3d2b3;
+    font-size: 0.9em;
+  }
+  /* Navbar */
+.navbar {
+    background-color: rgba(255, 66, 66, 0.9); /* warna oranye transparan */
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .navbar a {
+    color: rgb(101, 18, 255);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #0044ff;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
